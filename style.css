@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+    background-image: url(images/bg-desktop-light.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    background-color: bisque;
+    height: 40vh;
+}
+.todo-wrapper{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.submit-area h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 30px 0;
+}
+.todo{
+    display: flex;
+}
+.todo input{
+    padding: 15px;
+}
+.btn{
+    border: none;
+    padding: 15px;
+    margin: 0 12px;
+}
+.list{
+    margin-top: 18px;
+    position: fixed;
+}
+.list li{
+    width: 296px;
+    list-style: none;
+    font-size: 18px;
+    padding: 12px 8px;
+    border: 1px solid #555;
+
+}
+.xbtn{
+    float: right;
+    padding: 5px;
+    border: none;
+    background-color: none;
+}
